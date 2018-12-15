@@ -1,6 +1,10 @@
 # docker-scrapy
 
-A basic docker image based on Alpine Linux for Scrapy, the size of Docker image is 164MB.
+[![](https://img.shields.io/docker/stars/dmcpartners/docker-scrapy.svg)](https://hub.docker.com/r/dmcpartners/docker-scrapy 'DockerHub') 
+[![](https://img.shields.io/docker/pulls/dmcpartners/docker-scrapy.svg)](https://hub.docker.com/r/dmcpartners/docker-scrapy 'DockerHub') 
+[![](https://images.microbadger.com/badges/image/dmcpartners/docker-scrapy.svg)](https://microbadger.com/images/dmcpartners/docker-scrapy "Get your own image badge on microbadger.com")
+
+A basic docker image based on Alpine Linux for Scrapy.
 
 The pre-installed Python libraries:
 
