@@ -18,3 +18,13 @@ docker pull dmcpartners/docker-scrapy
 ```
 
 The public page on Docker Hub: [dmcpartners/docker-scrapy](https://hub.docker.com/r/dmcpartners/docker-scrapy)
+
+## Example
+
+```dockerfile
+# Dockerfile
+FROM dmcpartners/docker-scrapy
+ADD . /code
+WORKDIR /code
+CMD scrapy list | xargs -n 1 scrapy crawl
+```
