@@ -1,4 +1,4 @@
-scrapy
+scrapy==1.5.1
 pymongo==3.7.2
-python-dotenv==0.10.0
+python-dotenv==0.10.1
 scrapy-splash==0.7.2
