@@ -1,5 +1,4 @@
 scrapy
-cffi
 pymongo==3.7.2
 python-dotenv==0.10.0
 scrapy-splash==0.7.2
