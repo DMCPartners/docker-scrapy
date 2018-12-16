@@ -1,8 +1,8 @@
-# docker-scrapy
+# python-scrapy
 
-[![](https://img.shields.io/docker/stars/dmcpartners/docker-scrapy.svg)](https://hub.docker.com/r/dmcpartners/docker-scrapy 'DockerHub') 
-[![](https://img.shields.io/docker/pulls/dmcpartners/docker-scrapy.svg)](https://hub.docker.com/r/dmcpartners/docker-scrapy 'DockerHub') 
-[![](https://images.microbadger.com/badges/image/dmcpartners/docker-scrapy.svg)](https://microbadger.com/images/dmcpartners/docker-scrapy "Get your own image badge on microbadger.com")
+[![](https://img.shields.io/docker/stars/dmcpartners/python-scrapy.svg)](https://hub.docker.com/r/dmcpartners/python-scrapy 'DockerHub') 
+[![](https://img.shields.io/docker/pulls/dmcpartners/python-scrapy.svg)](https://hub.docker.com/r/dmcpartners/python-scrapy 'DockerHub') 
+[![](https://images.microbadger.com/badges/image/dmcpartners/python-scrapy.svg)](https://microbadger.com/images/dmcpartners/python-scrapy "Get your own image badge on microbadger.com")
 
 A basic docker image based on Alpine Linux for Scrapy.
 
