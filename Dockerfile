@@ -1,7 +1,7 @@
 FROM python:3.7-alpine
 ENV PATH /usr/local/bin:$PATH
 COPY requirements.txt /tmp/
-RUN apk --update add --no-cache \
+RUN apk --update --no-cache add \
         build-base \
         libffi-dev \
         libxslt-dev \
