@@ -1,7 +1,7 @@
 FROM python:3.7-alpine
 ENV PATH /usr/local/bin:$PATH
 COPY requirements.txt /tmp/
-RUN apk --update add --virtual build-dependencies \
+RUN apk --update add --no-cache \
         build-base \
         libffi-dev \
         libxslt-dev \
@@ -10,5 +10,4 @@ RUN apk --update add --virtual build-dependencies \
         wget \
         git \
     && pip install -r /tmp/requirements.txt \
-    && apk del build-dependencies \
     && rm -rf /var/cache/apk/*
