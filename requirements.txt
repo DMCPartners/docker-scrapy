@@ -5,3 +5,4 @@ python-dotenv==0.10.1
 scrapy-splash==0.7.2
 dnspython==1.16.0
 scrapy-redis==0.6.8
+requests==2.21.0
