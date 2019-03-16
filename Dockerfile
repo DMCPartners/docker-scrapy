@@ -4,6 +4,8 @@ COPY requirements.txt /tmp/
 RUN apk --update --no-cache add \
         build-base \
         libffi-dev \
+        libpq \
+        postgresql-dev \
         libxslt-dev \
         openssl-dev \
         gcc \
